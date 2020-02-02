@@ -25,12 +25,21 @@
     <Compile Include="igb\ml.py" />
     <Compile Include="igb\__init__.py" />
     <Compile Include="main.py" />
+    <Compile Include="setup.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="igb\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="igb\C_test2.dll" />
+    <Content Include="LICENSE.txt">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="setup.cfg">
+      <SubType>Code</SubType>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
