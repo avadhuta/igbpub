@@ -4,7 +4,8 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>e27b6c53-f4e8-4d27-a241-9a9c32b79208</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>igbpub.py</StartupFile>
+    <StartupFile>
+    </StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,9 +22,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="igbpub.py" />
     <Compile Include="igb\ml.py" />
     <Compile Include="igb\__init__.py" />
+    <Compile Include="main.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="igb\" />
